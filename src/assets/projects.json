@@ -1,0 +1,114 @@
+{
+  "majors": [
+    {
+      "id": "vita3k",
+      "name": "Vita3K",
+      "image": "vita3k.svg",
+      "props": ["icon"],
+      "badges": ["Open-Source", "Emulation"],
+      "tags": ["C++", "HLE", "Gaming"],
+      "description": "First in the world emulator for the PS Vita console (2011).",
+      "blurb": "I joined the Vita3K developer team after completing my own NES emulator. Since then, I've committed over 22.6k lines of code across 75 commits. I've maintained support for the macOS platform, implemented a simple Vulkan backend for the GUI, implemented HLE audio/video decoding using FFMPEG, and pushed many games into the 'In-Game' state.",
+      "links": ["https://github.com/Vita3K/Vita3K"]
+    },
+    {
+      "id": "prepri",
+      "name": "Prepri",
+      "image": "prepri.svg",
+      "props": ["icon", "award"],
+      "badges": ["Startup", "Education"],
+      "tags": ["Web", "Vue.js", "Node.js"],
+      "description": "Intuitive online teaching tool for superior lessons.",
+      "blurb": "Prepri started off as a submission to the TU20 cup, a local business competition. Through hard work and dedication, our team managed to place as a finalist. This allowed us to strike a deal with the national Food For Life charity for $15k in order for us to set up the project for their team. Prepri is in use today by the charity to train their volunteers.",
+      "links": ["https://foodforlife.ca", "https://learn.foodforlife.ca"]
+    },
+    {
+      "id": "beacon",
+      "name": "Beacon",
+      "image": "beacon.png",
+      "badges": ["Startup", "E-mail"],
+      "tags": ["Web", "Vue.js"],
+      "description": "E-mail reinvented, powered by AI.",
+      "blurb": "After winning Hack the Northeast 2020, we wanted to use the grant given to us to start a revolutionary new email platform. The platform had a powerful screener, smart tags, multiple inboxes and an intuitive and streamlined design that most email applications notoriously lack.",
+      "links": ["https://beacon-mail.github.io", "https://github.com/beacon-mail"]
+    },
+    {
+      "id": "kara",
+      "name": "Kara",
+      "image": "kara.jpg",
+      "props": ["icon"],
+      "badges": ["Compiler", "LLVM"],
+      "tags": ["C++", "Clang AST"],
+      "description": "Lightning-fast programming language designed for real people, not robots.",
+      "blurb": "I've grown to love the low-level memory management features of a language like C++. Unfortunately, picking C++ often means putting in a lot of work to hit some nice functional programming paradigms (Select/Filter/Immutability). I picked some of my favorite 'must-need' features and began to work on a new language. I streamlined features like methods, exceptions and iterators into features like UFCS, bubbling expected types and dynamic slices. The whole compiler is based on LLVM, so every app can take advantage of the blazing fast optimizations and expansive compiler targets out of the box.",
+      "links": ["https://github.com/1whatleytay/kara"]
+    },
+    {
+      "id": "psp2spvc",
+      "name": "psp2spvc",
+      "image": "psp2spvc.jpg",
+      "props": ["icon"],
+      "badges": ["Compiler", "GPU"],
+      "tags": ["C++", "SPIR-V"],
+      "description": "First open-source compiler for the PS Vita GPU.",
+      "blurb": "While working on Vita3K, we had a lot of trouble reverse engineering the PS Vita GPU. This compiler was built as a collection of everything the Vita3K team learned during our research. The ultimate goal was to make an open source project the Vita homebrew community can use to program with. The project supported a few basic shaders, enough to compile a few simple home-brews."
+    },
+    {
+      "id": "pagent",
+      "name": "Pagent",
+      "image": "pagent.jpg",
+      "props": ["icon"],
+      "badges": ["Website", "Framework"],
+      "tags": ["C++", "JS", "Compiler"],
+      "description": "Reactive programming language for the web.",
+      "blurb": "Pagent is born out of a frustration for other reactive app frameworks. Data-driven development does not always work well with the host language. The framework Flutter's solution to reactive development in particular was riddled with strange workarounds in order to get reactivity to work right. In pagent, reactivity is built into the language. You have all the features of a regular language, but now you can also declare `page`s, `View`s, `Scenes` and build your app interface with builtin compiler support. Stop worrying about two different code-bases, with pagent you can define API methods and your interface in the same file. Don't worry about forming REST calls, you can just call an API endpoint like any other method. This was my hope for pagent, and I ended up getting pretty close. Checkout the syntax on Github, or try the in-browser demo.",
+      "links": ["https://github.com/1whatleytay/pagent", "https://github.com/1whatleytay/pagent-demo", "https://github.com/1whatleytay/pagent-democ"]
+    }
+  ],
+  "awards": [
+    {
+      "id": "jump",
+      "name": "Jump!",
+      "image": "jump.png",
+      "props": ["award"],
+      "badges": ["HTN 2020++ Winner", "iOS"],
+      "tags": ["Swift", "AppKit + SwiftUI"],
+      "description": "AI-powered, competitive multiplayer fitness game to get you fit during quarantine.",
+      "blurb": "Since the start of 2020, it's become increasingly difficult to get into shape. Gyms around the world have been closing, and a higher degree of social isolation has made it hard to stay motivated to keep fit. Unfortunately, if you're forced to stay home, it can be tough to stay on track with your fitness schedule, get feedback from friends and trainers, maintain proper form during exercises, and have fun while exercising! Recognizing that exercise is much more engaging when you do it with friends, we decided to create a fun multiplayer exercise experience, called Jump!. Jump! is a real-time multiplayer competitive exercise game powered by computer-vision. Your phone tracks your exercise, while you compete with your friend via a video call. First one to complete the exercise set wins.",
+      "links": ["https://youtu.be/v8Utv2Ltc1k", "https://devpost.com/software/jump-ar5890", "https://github.com/yashmulki/htnapp"]
+    },
+    {
+      "id": "wwdc-2020",
+      "name": "WWDC 2020",
+      "image": "survival.png",
+      "props": ["award"],
+      "badges": ["WWDC 2020 Winner", "Game"],
+      "tags": ["Swift", "GameKit"],
+      "description": "Learn programming by giving ACE, a friendly robot, the right instructions to reach the goal.",
+      "blurb": "My submission for WWDC 2020 was a small game designed to teach fundamental instructions about programming. The player must queue up instructions for the friendly robot, ACE, to execute the reach the goal flag. There are several levels. The whole Swift Playground submission was made over the course of 12 hours (from when I found out about the competition to the deadline). I was ecstatic to hear that my submission ended up winning that WWDC 2020 Swift Student Challenge award!",
+      "links": ["https://dailyhive.com/vancouver/canadian-winners-apple-wwdc20-swift-student-challenge"]
+    },
+    {
+      "id": "quinoa",
+      "name": "Quinoa",
+      "image": "quinoa.png",
+      "props": ["award"],
+      "badges": ["HTNE 2020 Winner", "AI"],
+      "tags": ["Flutter/Dart", "JS", "Amazon ASK"],
+      "description": "Your AI powered personal secretary that learns your schedule to find times that work best for you.",
+      "blurb": "Quinoa is your own personal AI secretary. The idea originated from a frustration: organization software simply cannot keep up to with our extremely dynamic lives. The app will use AI to help categorize and schedule your events automatically at times that work best for you. As you continue using the app, the AI will start to understand your schedule more and more and offer better and better suggestions. You can also use it through your Amazon Echo, so there's no excuse to forget to schedule an important event. The project was submitted to the Hack the Northeast Hackathon and ended up winning the grand prize ($10k AWS Credits + $1k) ended up winning the 3rd place for the Machine Learning Prize.",
+      "links": ["https://youtu.be/qlY9JKgkDwM", "https://devpost.com/software/quinoa-your-virtual-secretary", "https://github.com/1whatleytay/quinoa/", "https://github.com/AadityaChaudhary/PersonalAssistantApp"]
+    },
+    {
+      "id": "lectio",
+      "name": "Lectio",
+      "image": "lectio.png",
+      "props": ["award"],
+      "badges": ["PCHacks 2019 Winner", "AI"],
+      "tags": ["Web", "Vue.js", "Amazon ASK"],
+      "blurb": "Lectio is a learning app for individuals with dyslexia. The app uses machine learning and voice recognition in order to detect lexical discrepancies, and uses speech APIs to help correct them. We also employ reinforcement learning (w/ reminders) and a special font for dyslexia in order to maximize our users learning potential. We know a few people who have dyslexia, and we thought something like Lectio would be a perfect fit. The project ended up winning 1st place prize at PC Hacks 2019.",
+      "description": "An AI-powered learning tool for dyslexic individuals to fine tune their reading skills.",
+      "links": ["https://devpost.com/software/lectio", "https://github.com/LunarCoffee/Lectio"]
+    }
+  ]
+}
